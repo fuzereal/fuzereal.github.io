@@ -1,13 +1,14 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 0px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 }
 
 .container {
 	max-width: 390px;
+
 }
 
 .inner {
@@ -22,20 +23,26 @@ body {
 
 .item {
 	text-align: center;
-}
 
+}
+@font-face {
+    font-family: Gilroy; /* Гарнитура шрифта */
+    src: url(Font/Gilroy-Medium.ttf); /* Путь к файлу со шрифтом */
+   }
 p {
-	
+	padding: 0;
+	display: inline-flex;
 	font-size: 14px;
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
+	font-weight: medium;
+	font-family: Gilroy;
   }
 .btn {
+	font-family: Gilroy;
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 7px 15px;
 	border: none;
-	background: rgb(0, 60, 255);
-	border-radius: 10px;
+	background:#0E5ED7;
+	border-radius: 15px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -44,7 +51,7 @@ p {
 }
 
 .btn:hover {
-	background: rgb(0, 225, 255);
+	background: rgb(18, 172, 192);
 }
 
 .usercard {
