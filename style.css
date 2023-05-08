@@ -30,6 +30,7 @@ body {
     src: url(Font/Gilroy-Medium.ttf); /* Путь к файлу со шрифтом */
    }
 p {
+	color: #fff;
 	margin: 0 40px 0 40px;
 	padding: 0;
 	font-size: 14px;
