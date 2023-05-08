@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-size: 0px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 }
@@ -31,13 +30,14 @@ body {
    }
 p {
 	color: #fff;
-	margin: 0 40px 0 40px;
+	margin: 7px 40px 0 40px;
 	padding: 0;
 	font-size: 14px;
 	font-weight: medium;
 	font-family: Gilroy;
   }
 .btn {
+	margin:2px 0 0 0 ;
 	font-weight: medium;
 	font-family: Gilroy;
 	display: inline-block;
