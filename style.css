@@ -11,13 +11,14 @@ body {
 }
 
 .inner {
-	display: grid;
+	display: flex;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 200px 200px 200px;
 }
 
 .img {
 	width: 120px;
+	margin: 3px 0 0 0;
 }
 
 .item {
@@ -26,19 +27,19 @@ body {
 }
 @font-face {
     font-family: Gilroy; /* Гарнитура шрифта */
-    src: url(Gilroy-Medium.ttf); /* Путь к файлу со шрифтом */
+    src: url(Gilroy-Light.ttf); /* Путь к файлу со шрифтом */
    }
 p {
-	color: #fff;
-	margin: 7px 40px 0 40px;
+	color:#fff;
+	margin: 4px 40px 0 40px;
 	padding: 0;
 	font-size: 14px;
 	font-weight: medium;
 	font-family: Gilroy;
   }
 .btn {
-	margin:0px 0 0 0 ;
-	font-weight: medium;
+	margin:2px 0 0 0 ;
+	font-weight: Thin;
 	font-family: Gilroy;
 	display: inline-block;
 	padding: 7px 15px;
