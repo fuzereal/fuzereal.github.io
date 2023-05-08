@@ -26,7 +26,7 @@ body {
 }
 @font-face {
     font-family: Gilroy; /* Гарнитура шрифта */
-    src: url(Font/Gilroy-Medium.ttf); /* Путь к файлу со шрифтом */
+    src: url(Gilroy-Medium.ttf); /* Путь к файлу со шрифтом */
    }
 p {
 	color: #fff;
