@@ -18,7 +18,7 @@ body {
 }
 
 .img {
-	width: 130px;
+	width: 120px;
 }
 
 .item {
@@ -30,13 +30,14 @@ body {
     src: url(Font/Gilroy-Medium.ttf); /* Путь к файлу со шрифтом */
    }
 p {
+	margin: 0 40px 0 40px;
 	padding: 0;
-	display: inline-flex;
 	font-size: 14px;
 	font-weight: medium;
 	font-family: Gilroy;
   }
 .btn {
+	font-weight: medium;
 	font-family: Gilroy;
 	display: inline-block;
 	padding: 7px 15px;
@@ -44,7 +45,6 @@ p {
 	background:#0E5ED7;
 	border-radius: 15px;
 	color: #fff;
-	text-transform: uppercase;
 	font-weight: 700;
 
 	transition: background .2s linear;
@@ -55,6 +55,7 @@ p {
 }
 
 .usercard {
+	color: #0E5ED7;
 	text-align: center;
 }
 
