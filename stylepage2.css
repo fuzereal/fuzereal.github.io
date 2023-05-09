@@ -1,0 +1,99 @@
+body {	
+
+	padding: 0;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+}
+
+.container {
+	max-width: 390px;
+
+}
+
+.inner {
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px 200px;
+}
+
+.img {
+	width: 315;
+	margin: 8px 0 5px 0;
+}
+.imgcalc {
+	margin: 5px 0 0 5px;
+	text-align: left;
+	width: 25px;
+}
+.btn4 {
+	margin: 5px 0 0 5px;
+	height: 25px;
+	width: 30px;
+	color: #fff;
+	font-size: 18px;
+	font-family: Gilroy;
+    border-radius: 15px;
+	background: #11181F;
+}
+.btn4:hover {
+	background: rgb(18, 172, 192);
+}
+.item {
+	text-align: center;
+
+}
+@font-face {
+    font-family: Gilroy; /* Гарнитура шрифта */
+    src: url(Gilroy-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+p {
+	color:#fff;
+	margin: 4px 10px 0 10px;
+	padding: 0;
+	font-size: 14px;
+	font-family: Gilroy;
+	text-align: left;
+  }
+  .btn2 {
+	margin:100px 0 0 130px ;
+	font-family: Gilroy;
+	padding: 13px 25px;
+	border: none;
+	background:#0E5ED7;
+	border-radius: 15px;
+	color: #fff;
+
+	transition: background .2s linear;
+}
+.btn2:hover {
+	background: rgb(18, 172, 192);
+}
+
+.btn {
+	margin:0 0 0 200px ;
+	font-family: Gilroy;
+	padding: 7px 15px;
+	border: none;
+	background:#0E5ED7;
+	border-radius: 15px;
+	color: #fff;
+
+	transition: background .2s linear;
+}
+
+.btn:hover {
+	background: rgb(18, 172, 192);
+}
+
+.usercard {
+	text-align: center;
+}
+
+/*
+var(--tg-theme-bg-color)
+var(--tg-theme-text-color)
+var(--tg-theme-hint-color)
+var(--tg-theme-link-color)
+var(--tg-theme-button-color)
+var(--tg-theme-button-text-color)
+*/
