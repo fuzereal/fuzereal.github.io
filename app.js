@@ -7,7 +7,6 @@ tg.MainButton.color = "#2cab37";
 
 let counter = 1;
 let item = "";
-document.getElementById("count").innerHTML = counter + 'ШТ';
 
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
@@ -23,14 +22,13 @@ let btn11 = document.getElementById("btn11");
 let btn12 = document.getElementById("btn12");
 let btn15 = document.getElementById("btn15");
 
-document.getElementById('btn1').onclick = function() {
-	window.location.href = 'btn1.html';
-  };
 
-document.getElementById('btn1').onclick = function() {
-	window.location.href = 'btn1.html';
-  };
 
+
+btn1.addEventListener("click", function(){
+	window.location.href = 'btn1.html';
+	
+});
 
 
   btn15.addEventListener("click", function(){
@@ -165,5 +163,6 @@ ${tg.initDataUnsafe.user.last_name}`;
 usercard.appendChild(p); 
 
 
+document.getElementById("count").innerHTML = counter + 'ШТ';
 
 
