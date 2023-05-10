@@ -26,9 +26,7 @@ body {
 	width: 25px;
 }
 .btn4 {
-	margin: 5px 0 0 5px;
-	height: 25px;
-	width: 30px;
+	text-align: left;
 	color: #fff;
 	font-size: 18px;
 	font-family: Gilroy;
@@ -47,6 +45,7 @@ body {
     src: url(Gilroy-Light.ttf); /* Путь к файлу со шрифтом */
    }
 p {
+	color: #fff;
 	margin: 4px 15px 0 15px;
 	padding: 0;
 	font-size: 14px;
@@ -54,7 +53,8 @@ p {
 	text-align: left;
   }
   .btn6 {
-	margin:185px 0 10px 12px ;
+	font-weight: medium;
+	margin:145px 0 10px 12px ;
 	font-family: Gilroy;
 	padding: 16px 145px;
 	border: none;
