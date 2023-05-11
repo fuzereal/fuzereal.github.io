@@ -1,4 +1,5 @@
 body {	
+
 	padding: 0;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
@@ -57,7 +58,7 @@ p {
   }
   .btn6 {
 	font-weight: medium;
-	margin:185px 0 10px 12px ;
+	margin:195px 0 10px 12px ;
 	font-family: Gilroy;
 	padding: 16px 150px;
 	border: none;
