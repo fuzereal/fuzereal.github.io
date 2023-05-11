@@ -27,6 +27,23 @@ let btnbuyp1 = document.getElementById("btnbuyp1");
 
 
 
+btnbuyp1.addEventListener("click", function(){
+	var sel = document.getElementById("listbox"); 
+    var val = sel.options[sel.selectedIndex].text;
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+	
+
+			tg.MainButton.setText("Нажмите что бы перейти к оплате");
+			item = "6";
+			price = "1500"
+			
+			tg.MainButton.show();
+		
+	}
+});
 
 btn1.addEventListener("click", function(){
 	window.location.href = 'btn1.html';
@@ -152,28 +169,6 @@ btn12.addEventListener("click", function(){
 });
 
 
-btnbuyp1.addEventListener("click", function(){
-	var sel = document.getElementById("listbox"); 
-    var val = sel.options[sel.selectedIndex].text;
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		if(val == "Выбрать размер")
-		{
-
-		}
-		else
-		{
-
-			tg.MainButton.setText("Нажмите что бы перейти к оплате");
-			item = "6";
-			price = "1500"
-			
-			tg.MainButton.show();
-		}
-	}
-});
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
 	tg.sendData(item);
