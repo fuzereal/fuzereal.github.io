@@ -8,7 +8,6 @@ tg.MainButton.color = "#2cab37";
 let counter = 1;
 let item = "";
 let price = "";
-var selected;
 
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
@@ -23,27 +22,8 @@ let btn10 = document.getElementById("btn10");
 let btn11 = document.getElementById("btn11");
 let btn12 = document.getElementById("btn12");
 let btn15 = document.getElementById("btn15");
-let btnbuyp1 = document.getElementById("btnbuyp1");
 
 
-
-btnbuyp1.addEventListener("click", function(){
-	var sel = document.getElementById("listbox"); 
-    var val = sel.options[sel.selectedIndex].text;
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-	
-
-			tg.MainButton.setText("Нажмите что бы перейти к оплате");
-			item = "6";
-			price = "1500";
-			
-			tg.MainButton.show();
-		
-	}
-});
 
 btn1.addEventListener("click", function(){
 	window.location.href = 'btn1.html';
@@ -51,9 +31,6 @@ btn1.addEventListener("click", function(){
 });
 
 
-  btn15.addEventListener("click", function(){
-	counter += 1;
-});
 btn2.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
