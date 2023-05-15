@@ -1,5 +1,4 @@
 body {	
-
 	padding: 0;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
@@ -17,10 +16,29 @@ body {
 }
 
 .img {
-	width: 120px;
-	margin: 8px 0 5px 0;
+	width: 315;
+	margin: 0px 0 5px 15px;
 }
+.imgcalc {
+	margin: 5px 0 0 5px;
+	text-align: left;
+	width: 25px;
+}
+.btn4 {
+	margin: 5px 0 0 15px;
 
+	font-size: 15px;
+	font-family: Gilroy;
+    border-radius: 15px;
+	background: #11181F;
+	border: none;	
+	padding: 4px 15px;
+
+
+}
+.btn4:hover {
+	background: rgb(54, 54, 54);
+}
 .item {
 	text-align: center;
 
@@ -30,15 +48,40 @@ body {
     src: url(Gilroy-Light.ttf); /* Путь к файлу со шрифтом */
    }
 p {
-	margin: 4px 40px 0 40px;
+	margin: 4px 15px 0 20px;
 	padding: 0;
 	font-size: 14px;
 	font-family: Gilroy;
+	text-align: left;
   }
-.btn {
-	margin:2px 0 0 0 ;
+  .btn6 {
+	font-weight: medium;
+	margin:195px 0 10px 12px ;
 	font-family: Gilroy;
-	display: inline-block;
+	padding: 16px 150px;
+	border: none;
+	background:#0E5ED7;
+	border-radius: 15px;
+
+	transition: background .2s linear;
+}
+  .btn2 {
+	margin:0px 0 10px 12px ;
+	font-family: Gilroy;
+	padding: 16px 165px;
+	border: none;
+	background:#0E5ED7;
+	border-radius: 15px;
+
+	transition: background .2s linear;
+}
+.btn2:hover {
+	background: rgb(18, 172, 192);
+}
+
+.btn {
+	margin:0 0 0 200px ;
+	font-family: Gilroy;
 	padding: 7px 15px;
 	border: none;
 	background:#0E5ED7;
