@@ -44,25 +44,13 @@ btn2.addEventListener("click", function(){
 });
 
 btn3.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "3";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn3.html';
+
 });
 
 btn4.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "4";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn4.html';
+
 });
 
 btn5.addEventListener("click", function(){
@@ -71,72 +59,30 @@ btn5.addEventListener("click", function(){
 });
 
 btn6.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "6";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn6.html';
+
 });
 btn7.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "6";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn7.html';
+
 });
 btn8.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "6";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn8.html';
+
 });
 btn9.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "6";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn9.html';
+
 });btn10.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "6";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn10.html';
+
 });btn11.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "6";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn11.html';
+
 });
 btn12.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "6";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn12.html';
+
 });
 
 
