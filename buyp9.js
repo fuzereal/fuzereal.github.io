@@ -23,7 +23,7 @@ btnbuyp1.addEventListener("click", function(){
 	else {
 
 			tg.MainButton.setText("Нажмите что бы перейти к оплате");
-			item = "Shoes5";
+			item = "Shoes1";
 			price = "3500";
 			tg.sendData("3500");
 		//	tg.MainButton.show();
