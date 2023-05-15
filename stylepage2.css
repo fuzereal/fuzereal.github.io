@@ -6,7 +6,6 @@ body {
 
 .container {
 	max-width: 390px;
-	background: #11181F;
 
 }
 
@@ -18,7 +17,7 @@ body {
 
 .img {
 	width: 315;
-	margin: 0px 0 5px 15px;
+	margin: 0px 0 5px 0px;
 }
 .imgcalc {
 	margin: 5px 0 0 5px;
@@ -47,7 +46,7 @@ body {
 }
 @font-face {
     font-family: Gilroy; /* Гарнитура шрифта */
-    src: url(font/Gilroy-Light.ttf); /* Путь к файлу со шрифтом */
+    src: url(Gilroy-Light.ttf); /* Путь к файлу со шрифтом */
    }
 p {
 	margin: 4px 15px 0 20px;
