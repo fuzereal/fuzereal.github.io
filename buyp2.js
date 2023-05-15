@@ -21,13 +21,12 @@ btnbuyp1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-	
 
 			tg.MainButton.setText("Нажмите что бы перейти к оплате");
-			item = "1";
+			item = "Shoes1";
 			price = "3500";
 			tg.sendData("3500");
-			tg.MainButton.show();
+		//	tg.MainButton.show();
 		
 	}
 });
