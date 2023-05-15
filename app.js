@@ -32,15 +32,7 @@ btn1.addEventListener("click", function(){
 
 
 btn2.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-		
-	}
-	else {
-		tg.MainButton.setText("Товар был добавлен в коризну!");
-		item = "2";
-		tg.MainButton.show();
-	}
+	window.location.href = 'btn2.html';
 });
 
 btn3.addEventListener("click", function(){
