@@ -30,7 +30,6 @@ body {
     src: url(Gilroy-Light.ttf); /* Путь к файлу со шрифтом */
    }
 p {
-	color:#fff;
 	margin: 4px 40px 0 40px;
 	padding: 0;
 	font-size: 14px;
@@ -44,7 +43,6 @@ p {
 	border: none;
 	background:#0E5ED7;
 	border-radius: 15px;
-	color: #fff;
 
 	transition: background .2s linear;
 }
