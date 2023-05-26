@@ -27,11 +27,10 @@ btnbuyp1.addEventListener("click", function(){
 	if(text == "Выбрать размер")
 	{
 	
-		tg.MainButton.setText("Выберите размер!");
-		tg.MainButton.show();
 	}
 	else
-	{
+	{			item = "3";
+
 		price = "4900";
 		tg.sendData("4900");
 		tg.SendData(text);

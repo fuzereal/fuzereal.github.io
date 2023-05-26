@@ -19,24 +19,20 @@ btnnazad.addEventListener("click", function(){
 
 
 btnbuyp1.addEventListener("click", function(){
-
 	var e = document.getElementById("listbox");
 	var value = e.value;
 	var text = e.options[e.selectedIndex].text;
-	
 	if(text == "Выбрать размер")
 	{
 	
 	}
 	else
-	{			
-		item = "1";
-		price = "4900";
-		tg.sendData("4900");
-		tg.SendData(text);
+	{
+			item = "19";
+			price = "4500";
+			tg.sendData("4500");
+			tg.SendData(text);
 	}
-		
-	
 });
 
 btn15.addEventListener("click", function(){

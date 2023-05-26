@@ -19,19 +19,19 @@ btnnazad.addEventListener("click", function(){
 
 
 btnbuyp1.addEventListener("click", function(){
-	//var sel = document.getElementById("listbox"); 
-  //  var val = sel.options[sel.selectedIndex].text;
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
+	var e = document.getElementById("listbox");
+	var value = e.value;
+	var text = e.options[e.selectedIndex].text;
+	if(text == "Выбрать размер")
+	{
+	
 	}
-	else {
-
-			tg.MainButton.setText("Нажмите что бы перейти к оплате");
-			item = "Shoes1";
-			price = "3500";
-			tg.sendData("3500");
-		//	tg.MainButton.show();
-		
+	else
+	{
+			item = "14";
+			price = "4500";
+			tg.sendData("4500");
+			tg.SendData(text);
 	}
 });
 

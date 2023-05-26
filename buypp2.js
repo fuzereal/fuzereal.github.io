@@ -18,19 +18,20 @@ btnnazad.addEventListener("click", function(){
 
 
 btnbuyp1.addEventListener("click", function(){
-	//var sel = document.getElementById("listbox"); 
-  //  var val = sel.options[sel.selectedIndex].text;
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
+	var e = document.getElementById("listbox");
+	var value = e.value;
+	var text = e.options[e.selectedIndex].text;
+	if(text == "Выбрать размер")
+	{
+	
 	}
-	else {
-
+	else
+	{
+			item = "2";
 			tg.MainButton.setText("Нажмите что бы перейти к оплате");
-			item = "Shoes1";
-			price = "3500";
-			tg.sendData("3500");
-		//	tg.MainButton.show();
-		
+			price = "4990";
+			tg.sendData("4990");
+			tg.SendData(text);
 	}
 });
 
