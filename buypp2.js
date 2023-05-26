@@ -10,8 +10,11 @@ let item = "";
 let price = "";
 
 let btnbuyp1 = document.getElementById("btnbuyp1");
+let btnnazad = document.getElementById("btnnazad");
 
-
+btnnazad.addEventListener("click", function(){
+	window.location.href = 'index.html';
+});
 
 
 btnbuyp1.addEventListener("click", function(){

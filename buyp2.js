@@ -10,25 +10,21 @@ let item = "";
 let price = "";
 
 let btnbuyp1 = document.getElementById("btnbuyp1");
+let btnnazad = document.getElementById("btnnazad");
 
+btnnazad.addEventListener("click", function(){
+	window.location.href = 'index.html';
+});
 
 
 
 btnbuyp1.addEventListener("click", function(){
-	//var sel = document.getElementById("listbox"); 
-  //  var val = sel.options[sel.selectedIndex].text;
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
 
-			tg.MainButton.setText("Нажмите что бы перейти к оплате");
 			item = "Shoes1";
 			price = "3500";
 			tg.sendData("3500");
-		//	tg.MainButton.show();
 		
-	}
+	
 });
 
 btn15.addEventListener("click", function(){
