@@ -31,7 +31,7 @@ btnbuyp1.addEventListener("click", function(){
 			item = "7";
  			price = "4590";
 			tg.sendData("4590");
-			tg.SendData(text);
+			tg.SendData(item);
 	}
 });
 

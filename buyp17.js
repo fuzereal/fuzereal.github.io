@@ -22,11 +22,17 @@ btnbuyp1.addEventListener("click", function(){
 	var e = document.getElementById("listbox");
 	var value = e.value;
 	var text = e.options[e.selectedIndex].text;
+	if(text == "Выбрать размер")
+	{
 	
-			tg.MainButton.setText("Нажмите что бы перейти к оплате");
+	}
+	else
+	{
+	     	item = "17";
 			price = "4500";
 			tg.sendData("4500");
-			tg.SendData(text);
+			tg.SendData(item);
+	}
 });
 
 btn15.addEventListener("click", function(){
