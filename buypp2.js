@@ -27,11 +27,9 @@ btnbuyp1.addEventListener("click", function(){
 	}
 	else
 	{
-			item = "2";
 			tg.MainButton.setText("Нажмите что бы перейти к оплате");
 			price = "4990";
-			tg.sendData("4990");
-			tg.SendData(item);
+			tg.SendData("2");
 	}
 });
 

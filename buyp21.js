@@ -31,8 +31,8 @@ btnbuyp1.addEventListener("click", function(){
 			item = "21";
 			tg.MainButton.setText("Нажмите что бы перейти к оплате");
 			price = "5100";
-			tg.sendData("5100");
-			tg.SendData(item);
+			tg.SendData("21");
+
 	}
 });
 
