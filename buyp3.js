@@ -24,11 +24,19 @@ btnbuyp1.addEventListener("click", function(){
 	var value = e.value;
 	var text = e.options[e.selectedIndex].text;
 	
-			tg.MainButton.setText("Нажмите что бы перейти к оплате");
-			price = "4900";
-			tg.sendData("4900");
-			tg.SendData(text);
-		
+	if(text == "Выбрать размер")
+	{
+	
+		tg.MainButton.setText("Выберите размер!");
+		tg.MainButton.color("#fff");
+		tg.MainButton.show();
+	}
+	else
+	{
+		price = "4900";
+		tg.sendData("4900");
+		tg.SendData(text);
+	}
 	
 });
 
