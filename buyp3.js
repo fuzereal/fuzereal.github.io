@@ -28,7 +28,6 @@ btnbuyp1.addEventListener("click", function(){
 	{
 	
 		tg.MainButton.setText("Выберите размер!");
-		tg.MainButton.color("#fff");
 		tg.MainButton.show();
 	}
 	else
